@@ -2,8 +2,10 @@
 <div align="center"> 
 <a href="https://www.linkedin.com/in/jdiasneto/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
 </div>
-
+<div>
 <img align="left" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" />
+</div>
+
 ### Olá, 👋
 
   
@@ -15,7 +17,9 @@
   
   ##
 
+          
 <div style="display:inline">
+  <img align="left" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original-wordmark.svg" />
   <img align="left" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" />
   <img align="left" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain-wordmark.svg" />
   <div align="right">
