@@ -17,7 +17,8 @@
   
   ##
 
-<div style="display:inline">                                                                                                             
+<div style="display:inline">
+  <img align="left" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" />        
   <img align="left" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain.svg" />
   <div align="right">
     <img align="center" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
