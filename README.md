@@ -17,12 +17,12 @@
   
   ##
 
-<div><br>
+<div style="display:inline"><br>
   
-  <div style="float:right">                                                                                                                                         
+  <div style="float:left">                                                                                                                                         
    <img height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain.svg" />
   </div>
-  <div style="float:left;clear:both">
+  <div style="float:right;clear:both">
     <img align="center" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
     <img align="center" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
     <img align="center" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
