@@ -45,6 +45,7 @@
     <img align="center" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain-wordmark.svg">
     <img align="center" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original-wordmark.svg">
     <img align="center" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original-wordmark.svg">
+    <img align="center" height="40" src="https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.2.0/quarkus.svg">
           
           
   </div>
