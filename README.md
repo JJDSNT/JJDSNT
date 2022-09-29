@@ -8,7 +8,7 @@
 <a href="https://www.linkedin.com/in/jdiasneto/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" title="Perfil no linkedin" ></a> 
 </div>
 <div>
-<img align="left" title="Linux" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" />
+<img align="left" title="Linux" height="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" />
 </div>
   
   
@@ -48,7 +48,7 @@
     <div>
     <img align="center" title="Go" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original-wordmark.svg">
     <img align="center" title="Rust" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rust/rust-plain.svg">
-    <img align="center" title="Solidity" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/solidity/solidity-original.svg">
+    <img align="center" title="Solidity" height="35" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/solidity/solidity-original.svg">
     <img align="center" title="Python" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original-wordmark.svg">
     <img align="center" title="Laravel" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain-wordmark.svg">
     </div>
