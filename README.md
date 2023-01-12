@@ -33,7 +33,7 @@
     <td>
     <img align="center" title="Redux" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg">
     <img align="center" title="React" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg">
-    <img align="center" title="Vue" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg">    
+    <img align="center" title="Vue" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg">
     <img align="center" title="Angular" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg">
     <img align="center" title="Nest" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nestjs/nestjs-plain-wordmark.svg">
     </td>
@@ -51,6 +51,7 @@
     <tr><td>
     <img align="center" title="Airflow" height="40" src="https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.2.0/apacheairflow.svg">
     <img align="center" title="Dbt" height="40" src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/dbt.svg">
+    <img align="center" title="Angular" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original-wordmark.svg">
     <img align="center" title="Scikit-learn" height="40" src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/scikitlearn.svg">
     </td></tr>
     </table>
