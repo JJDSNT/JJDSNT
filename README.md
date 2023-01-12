@@ -49,7 +49,7 @@
     <img align="center" title="Python" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original-wordmark.svg">
     </td></tr>
     <tr><td>
-    <img align="center" title="Airflow" height="40" src="https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.2.0/apacheairflow.svg">
+    <img align="center" title="Airflow" height="40" src="https://avatars.githubusercontent.com/u/33643075?s=200&v=4">
     <img align="center" title="Dbt" height="40" src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/dbt.svg">
     <img align="center" title="Pandas" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original-wordmark.svg">
     <img align="center" title="Scikit-learn" height="40" src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/scikitlearn.svg">
