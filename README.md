@@ -50,7 +50,7 @@
     </td></tr>
     <tr><td>
     <img align="center" title="Airflow" height="40" src="https://avatars.githubusercontent.com/u/33643075?s=200&v=4">
-    <img align="center" title="Dbt" height="40" src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/dbt.svg">
+    <img align="center" title="Dbt" height="40" src="https://raw.githubusercontent.com/fishtown-analytics/dbt/6c6649f9129d5d108aa3b0526f634cd8f3a9d1ed/etc/dbt-logo-full.svg">
     <img align="center" title="Pandas" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original-wordmark.svg">
     <img align="center" title="Scikit-learn" height="40" src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/scikitlearn.svg">
     </td></tr>
