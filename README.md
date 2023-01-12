@@ -43,7 +43,7 @@
     </td></tr>
     <tr><td>
     <img align="center" title="Spring" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original-wordmark.svg">
-    <img align="center" title="Quarkus" height="40" src="https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.2.0/quarkus.svg">
+    <img align="center" title="Quarkus" height="40" src="https://raw.githubusercontent.com/github/explore/4a0bdb9141afd8d9be5d6b8d6b22eb40be88f665/topics/quarkus/quarkus.png">
     </td></tr>
     <tr><td>
     <img align="center" title="Python" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original-wordmark.svg">
