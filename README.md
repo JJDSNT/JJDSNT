@@ -45,6 +45,13 @@
     <img align="center" title="Spring" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original-wordmark.svg">
     <img align="center" title="Quarkus" height="40" src="https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.2.0/quarkus.svg">
     </td></tr>
+    <tr><td>
+    <img align="center" title="JAVA" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original-wordmark.svg">
+    </td></tr>
+    <tr><td>
+    <img align="center" title="Spring" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original-wordmark.svg">
+    <img align="center" title="Quarkus" height="40" src="https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.2.0/quarkus.svg">
+    </td></tr>
     </table>
     <div>
     <img align="center" title="Go" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original-wordmark.svg">
