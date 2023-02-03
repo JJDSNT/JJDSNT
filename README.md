@@ -76,9 +76,11 @@
   <br />
   <br />
   <img align="left" title="AWS" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" />
-  <img align="left" title="AWS" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/azure/azure-original-wordmark.svg" />
-  <img align="left" title="AWS" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/googlecloud/googlecloud-original-wordmark.svg" />
+  <img align="left" title="Azure" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/azure/azure-original-wordmark.svg" />
+  <img align="left" title="GCP" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/googlecloud/googlecloud-original-wordmark.svg" />
 
- 
+  <div align="right">
+  <img align="center" title="Hadoop" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/hadoop2.png">
+  </div>
   
   </div> 
