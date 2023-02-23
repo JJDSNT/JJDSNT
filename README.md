@@ -72,12 +72,14 @@
   <br />
   <img align="left" title="Terraform" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/terraform/terraform-original-wordmark.svg" />
   <img align="left" title="Ansible" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ansible/ansible-original-wordmark.svg" />
+  <img align="left" title="Jenkins" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jenkins/jenkins-original.svg" />
   <img align="left" title="ArgoCD" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/argocd/argocd-original-wordmark.svg" />
   <br />
   <br />
   <img align="left" title="AWS" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" />
   <img align="left" title="Azure" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/azure/azure-original-wordmark.svg" />
   <img align="left" title="GCP" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/googlecloud/googlecloud-original-wordmark.svg" />
+  <img align="left" title="OCI" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" />
 
   <div align="right">
   <img align="center" title="Kylin" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/kylin.png">
