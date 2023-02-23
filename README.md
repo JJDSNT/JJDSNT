@@ -68,6 +68,7 @@
   <img align="left" title="Git" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original-wordmark.svg" />
   <img align="left" title="Docker" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" />
   <img align="left" title="Kubernetes" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain-wordmark.svg" />
+  <img align="center" title="Knative" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/knative-logo-rgb.png">
   <br />
   <br />
   <img align="left" title="Terraform" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/terraform/terraform-original-wordmark.svg" />
