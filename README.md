@@ -49,8 +49,6 @@
     <img align="center" title="Python" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original-wordmark.svg">
     </td></tr>
     <tr><td>
-    <img align="center" title="Airflow" height="40" src="https://avatars.githubusercontent.com/u/33643075?s=200&v=4">
-    <img align="center" title="Dbt" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/dbt.png">
     <img align="center" title="Pandas" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original-wordmark.svg">
     <img align="center" title="Scikit-learn" height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/scikit-learn/scikit-learn.png">
     </td></tr>
@@ -83,6 +81,9 @@
   <img align="left" title="OCI" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" />
 
   <div align="right">
+  <img align="center" title="Airflow" height="40" src="https://avatars.githubusercontent.com/u/33643075?s=200&v=4">
+  <img align="center" title="Dbt" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/dbt.png">
+  <br />
   <img align="center" title="Kylin" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/kylin.png">
   <img align="center" title="Hadoop" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/hadoop2.png">
   <img align="center" title="Spark" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/spark.png">
