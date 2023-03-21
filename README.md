@@ -85,6 +85,7 @@
   <img align="center" title="Hadoop" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/hadoop2.png">
   <img align="center" title="Spark" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/spark.png">
   <br />
+  <img align="center" title="DVC" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/dvc.png">
   <img align="center" title="Pycaret" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/pycaret.png">
   <img align="center" title="MLFlow" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/mlflow.png">
   <br />
