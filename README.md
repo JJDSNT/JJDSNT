@@ -51,8 +51,9 @@
     <tr><td>
     <img align="center" title="NumPy" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original-wordmark.svg">
     <img align="center" title="Pandas" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original-wordmark.svg">
+    <img align="center" title="Matplotlib" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/matplotlib.png">
     <img align="center" title="Scikit-learn" height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/scikit-learn/scikit-learn.png">
-        <img align="center" title="LangChain" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/langchain.png">
+    <img align="center" title="LangChain" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/langchain.png">
     </td></tr>
     </table>
     <div>
