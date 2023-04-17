@@ -86,6 +86,7 @@
   <div align="right">
   <img align="center" title="Airflow" height="40" src="https://avatars.githubusercontent.com/u/33643075?s=200&v=4">
   <img align="center" title="Dbt" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/dbt.png">
+  <img align="center" title="NiFi" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/nifi.jpeg">
   <br />
   <img align="center" title="CML" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/cml.jpg">
   <img align="center" title="DVC" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/dvc.png">
