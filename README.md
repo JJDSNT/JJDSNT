@@ -75,6 +75,10 @@
   <img align="left" title="Terraform" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/terraform/terraform-original-wordmark.svg" />
   <img align="left" title="Ansible" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ansible/ansible-original-wordmark.svg" />
   <img align="left" title="Jenkins" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jenkins/jenkins-original.svg" />
+  <br />
+  <br />
+  <img align="left" title="Crossplane" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/crossplane.png">
+  <img align="left" title="Tekton" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/tekton.png">
   <img align="left" title="ArgoCD" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/argocd/argocd-original-wordmark.svg" />
   <br />
   <br />
