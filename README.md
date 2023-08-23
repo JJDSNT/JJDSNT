@@ -9,11 +9,12 @@
 </div>
 <div>
 <img align="left" title="Linux" height="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" />
+
 </div>
-  
   
   ##
 
+<img align="left" title="WSO2" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/wso2.png">
           
 <div style="display:inline">
          
