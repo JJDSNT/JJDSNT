@@ -39,6 +39,7 @@
     <img align="center" title="Nest" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nestjs/nestjs-plain-wordmark.svg">
       <br />
     <img align="center" title="Redux" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg">
+    <img align="center" title="Zustand" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/zustand.png" />
     </td>
     </tr>
     <tr><td>
