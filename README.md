@@ -27,6 +27,7 @@
     <img align="center" title="JavaScript" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
     <img align="center" title="TypeScript" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
     <img align="center" title="Node" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" />
+    <img align="center" title="Bun" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/bun.svg" />
     <img align="right" title="WebAssembly" height="40" src="https://raw.githubusercontent.com/carlosbaraza/web-assembly-logo/master/dist/icon/web-assembly-icon.svg" />
     </td>
     </tr>
