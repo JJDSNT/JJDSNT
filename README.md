@@ -37,7 +37,7 @@
     <img align="center" title="Next" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original-wordmark.svg" />      
     <img align="center" title="Vue" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg">
     <img align="center" title="Angular" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg">
-    <img align="center" title="Nest" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nestjs/nestjs-plain-wordmark.svg">
+    <img align="center" title="Nest" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/nestjs.jpg">
       <br />
     <img align="center" title="Redux" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg">
     <img align="center" title="Zustand" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/zustand.png" />
@@ -58,14 +58,15 @@
     <img align="center" title="Pandas" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original-wordmark.svg">
     <img align="center" title="Matplotlib" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/matplotlib.png">
     <img align="center" title="Scikit-learn" height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/scikit-learn/scikit-learn.png">
+    <img align="center" title="Keras" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/keras.png">
     <img align="center" title="LangChain" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/langchain.png">
     </td></tr>
     </table>
     <div>
     <img align="center" title="Go" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original-wordmark.svg">
-    <img align="center" title="Rust" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rust/rust-plain.svg">
+    <img align="center" title="Rust" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/rust.jpg">
     <img align="center" title="Solidity" height="35" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/solidity/solidity-original.svg">
-    <img align="center" title="Laravel" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain-wordmark.svg">
+    <img align="center" title="Laravel" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/laravel.png">
     </div>
           
           
