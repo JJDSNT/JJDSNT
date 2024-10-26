@@ -11,10 +11,11 @@
 <img align="left" title="Linux" height="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" />
 
 </div>
+  <br />
   
   ##
 
-<img align="left" title="WSO2" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/wso2.png">
+
           
 <div style="display:inline">
          
@@ -48,7 +49,6 @@
     </td></tr>
     <tr><td>
     <img align="center" title="Spring" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original-wordmark.svg">
-    <img align="center" title="Apache Camel" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/camel.png" />
     <img align="center" title="Quarkus" height="40" src="https://raw.githubusercontent.com/github/explore/4a0bdb9141afd8d9be5d6b8d6b22eb40be88f665/topics/quarkus/quarkus.png">
     </td></tr>
     <tr><td>
@@ -93,11 +93,15 @@
   <img align="left" title="Azure" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/azure/azure-original-wordmark.svg" />
   <img align="left" title="GCP" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/googlecloud/googlecloud-original-wordmark.svg" />
   <img align="left" title="OCI" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" />
+  <br />
+  <br />
+  <img align="left" title="WSO2" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/wso2.png">
+  <img align="center" title="Apache Camel" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/camel.png" />
+  <img align="center" title="NiFi" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/nifi.jpeg">
 
   <div align="right">
   <img align="center" title="Airflow" height="40" src="https://avatars.githubusercontent.com/u/33643075?s=200&v=4">
   <img align="center" title="Dbt" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/dbt.png">
-  <img align="center" title="NiFi" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/nifi.jpeg">
   <img align="center" title="Dagster" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/dagster.png">
   <img align="center" title="Hop" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/hop.png">
   <br />
