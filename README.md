@@ -66,7 +66,7 @@
     <tr><td>
     <img align="center" title="Laravel" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/laravel.png">
     <img align="center" title="Go" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original-wordmark.svg">
-    <img align="center" title="C" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/c-programming.png">
+    <img align="center" title="C" height="45" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/c-programming.png">
     <img align="center" title="C++" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/cmaismais.png">
     <img align="center" title="Rust" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/rust.jpg">
     <img align="center" title="Solidity" height="35" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/solidity/solidity-original.svg">
