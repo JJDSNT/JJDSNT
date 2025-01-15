@@ -23,6 +23,7 @@
     <img align="center" title="HTML 5" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg">
     <img align="center" title="CSS 3" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg">
     <table>
+    <tr><td align="center"><b>Linguagens de programação</b></td></tr>
     <tr>
     <td>
     <img align="center" title="JavaScript" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
@@ -62,17 +63,15 @@
     <img align="center" title="Keras" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/keras.png">
     <img align="center" title="LangChain" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/langchain.png">
     </td></tr>
-    </table>
-    <div>
+    <tr><td>
     <img align="center" title="C" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/c-programming.png">
     <img align="center" title="C++" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/cmaismais.png">
     <img align="center" title="Go" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original-wordmark.svg">
     <img align="center" title="Rust" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/rust.jpg">
     <img align="center" title="Solidity" height="35" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/solidity/solidity-original.svg">
-    <img align="center" title="Laravel" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/laravel.png">
-    </div>
-          
-          
+    <img align="center" title="Laravel" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/laravel.png">   
+    </td></tr>
+    </table>          
   </div>
   
   <img align="left" title="Git" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original-wordmark.svg" />
