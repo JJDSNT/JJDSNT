@@ -73,7 +73,9 @@
     </td></tr>
     </table>          
   </div>
-  
+  <div>
+  <b>Infraestrutura</b>
+  </div>
   <img align="left" title="Git" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original-wordmark.svg" />
   <img align="left" title="Docker" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" />
   <img align="left" title="Kubernetes" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain-wordmark.svg" />
@@ -96,11 +98,16 @@
   <img align="left" title="OCI" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" />
   <br />
   <br />
+  <div>
+  <b>Middleware/ESB</b>
+  </div>
   <img align="left" title="WSO2" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/wso2.png">
   <img align="center" title="Apache Camel" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/camel.png" />
   <img align="center" title="NiFi" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/nifi.jpeg">
 
   <div align="right">
+  <b>Dados&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
+  <br />
   <img align="center" title="Airflow" height="40" src="https://avatars.githubusercontent.com/u/33643075?s=200&v=4">
   <img align="center" title="Dbt" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/dbt.png">
   <img align="center" title="Dagster" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/dagster.png">
