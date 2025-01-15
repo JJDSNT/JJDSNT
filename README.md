@@ -64,7 +64,7 @@
     <img align="center" title="LangChain" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/langchain.png">
     </td></tr>
     <tr><td>
-    <img align="center" title="Laravel" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/laravel.png">
+    <img align="center" title="Laravel" height="40" width="50" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/laravel.png">
     <img align="center" title="Go" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original-wordmark.svg">
     <img align="center" title="C" height="45" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/c-programming.png">
     <img align="center" title="C++" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/cmaismais.png">
