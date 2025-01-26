@@ -82,14 +82,15 @@
   <img align="center" title="Knative" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/knative-logo-rgb.png">
   <br />
   <br />
-  <img align="left" title="Terraform" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/terraform/terraform-original-wordmark.svg" />
-  <img align="left" title="Ansible" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ansible/ansible-original-wordmark.svg" />
   <img align="left" title="Jenkins" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jenkins/jenkins-original.svg" />
-  <br />
-  <br />
-  <img align="left" title="Crossplane" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/crossplane.png">
   <img align="left" title="Tekton" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/tekton.png">
   <img align="left" title="ArgoCD" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/argocd/argocd-original-wordmark.svg" />
+  <br />
+  <br />
+  <img align="left" title="Terraform" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/terraform/terraform-original-wordmark.svg" />
+  <img align="left" title="Ansible" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ansible/ansible-original-wordmark.svg" />
+  <img align="left" title="Pulumi" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/crossplane.png">
+  <img align="left" title="Crossplane" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/crossplane.png">
   <br />
   <br />
   <img align="left" title="AWS" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" />
@@ -109,9 +110,9 @@
   <b>Dados&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
   <br />
   <img align="center" title="Airflow" height="40" src="https://avatars.githubusercontent.com/u/33643075?s=200&v=4">
+  <img align="center" title="Dagster" height="50" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/dagster.png">
   <img align="center" title="Dbt" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/dbt.png">
-  <img align="center" title="Dagster" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/dagster.png">
-  <img align="center" title="Hop" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/hop.png">
+  <img align="center" title="Hop" height="50" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/hop.png">
   <br />
   <img align="center" title="CML" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/cml.jpg">
   <img align="center" title="DVC" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/dvc.png">
