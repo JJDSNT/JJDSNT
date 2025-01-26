@@ -88,9 +88,9 @@
   <br />
   <br />
   <img align="left" title="Terraform" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/terraform/terraform-original-wordmark.svg" />
-  <img align="left" title="Ansible" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ansible/ansible-original-wordmark.svg" />
-  <img align="left" title="Pulumi" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/crossplane.png">
+  <img align="left" title="Pulumi" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/pulumi.png">
   <img align="left" title="Crossplane" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/crossplane.png">
+  <img align="left" title="Ansible" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ansible/ansible-original-wordmark.svg" />
   <br />
   <br />
   <img align="left" title="AWS" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" />
@@ -114,8 +114,8 @@
   <img align="center" title="Dbt" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/dbt.png">
   <img align="center" title="Hop" height="50" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/hop.png">
   <br />
-  <img align="center" title="CML" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/cml.jpg">
   <img align="center" title="DVC" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/dvc.png">
+  <img align="center" title="CML" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/cml.jpg">
   <img align="center" title="MLFlow" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/mlflow.png">
   <img align="center" title="Pycaret" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/pycaret.png">
   <img align="center" title="BentoML" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/bentoml.png">
