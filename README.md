@@ -61,7 +61,7 @@
     <img align="center" title="Matplotlib" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/matplotlib.png">
     <img align="center" title="Scikit-learn" height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/scikit-learn/scikit-learn.png">
     <img align="center" title="Keras" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/keras.png">
-    <img align="center" title="LangChain" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/langchain.png">
+    <img align="center" title="LangChain" height="55" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/langchain.png">
     </td></tr>
     <tr><td>
     <img align="center" title="Laravel" height="40" width="50" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/laravel.png">
@@ -79,7 +79,7 @@
   <img align="left" title="Git" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original-wordmark.svg" />
   <img align="left" title="Docker" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" />
   <img align="left" title="Kubernetes" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain-wordmark.svg" />
-  <img align="center" title="Knative" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/knative-logo-rgb.png">
+  <img align="center" title="Knative" height="25" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/knative-logo-rgb.png">
   <br />
   <br />
   <img align="left" title="Jenkins" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jenkins/jenkins-original.svg" />
@@ -93,7 +93,7 @@
   <img align="left" title="Ansible" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ansible/ansible-original-wordmark.svg" />
   <br />
   <br />
-  <img align="left" title="AWS" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" />
+  <img align="left" title="AWS" height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" />
   <img align="left" title="Azure" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/azure/azure-original-wordmark.svg" />
   <img align="left" title="GCP" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/googlecloud/googlecloud-original-wordmark.svg" />
   <img align="left" title="OCI" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" />
