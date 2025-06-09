@@ -52,7 +52,7 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
 
       - name: Build with Angular.js
-        run: ${{ steps.detect-package-manager.outputs.runner }} build:prod
+        run: ${{ steps.detect-package-manager.outputs.runner }} build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
