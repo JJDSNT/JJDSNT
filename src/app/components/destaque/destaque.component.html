@@ -1,1 +1,8 @@
-<p>destaque works!</p>
+<div class="destaque-container" *ngIf="content$ | async as content">
+  <h2 *ngIf="content.title; else noData">{{ content.title }}</h2>
+  <p *ngIf="content.description">{{ content.description }}</p>
+</div>
+
+<ng-template #noData>
+  <p style="color: red">Sem conteúdo correspondente.</p>
+</ng-template>

@@ -1,0 +1,47 @@
+.destaque-container {
+  padding: 2rem 1.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  animation: fadeIn 0.8s ease;
+}
+
+.destaque-container h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #1a202c; /* cinza escuro */
+  margin-bottom: 1rem;
+}
+
+.destaque-container p {
+  font-size: 1.1rem;
+  color: #4a5568; /* cinza médio */
+  line-height: 1.6;
+}
+
+/* Fade suave para troca de conteúdo */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsivo para telas menores */
+@media (max-width: 600px) {
+  .destaque-container {
+    padding: 1.5rem 1rem;
+  }
+
+  .destaque-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .destaque-container p {
+    font-size: 1rem;
+  }
+}

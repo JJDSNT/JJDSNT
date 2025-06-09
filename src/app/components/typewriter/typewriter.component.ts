@@ -3,61 +3,59 @@ import {
   Component,
   inject,
   OnInit,
-  ChangeDetectorRef,
   OnDestroy,
 } from '@angular/core';
 import { TypewriterService } from './typewriter.service';
-import { Observable, of, Subject } from 'rxjs';
-import { map, switchMap, takeUntil } from 'rxjs/operators';
+import { Observable, Subject } from 'rxjs';
+import { takeUntil } from 'rxjs/operators';
 import { AsyncPipe } from '@angular/common';
-import { TranslocoService, TranslocoModule } from '@jsverse/transloco';
 
 @Component({
-    selector: 'app-typewriter',
-    standalone: true,
-    imports: [AsyncPipe, TranslocoModule],
-    templateUrl: './typewriter.component.html',
-    styleUrls: ['./typewriter.component.css'],
-    changeDetection: ChangeDetectionStrategy.OnPush
+  selector: 'app-typewriter',
+  standalone: true,
+  imports: [AsyncPipe],
+  templateUrl: './typewriter.component.html',
+  styleUrls: ['./typewriter.component.css'],
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class TypewriterComponent implements OnInit, OnDestroy {
-  typedText$: Observable<string> = new Observable<string>();
+  typedText$: Observable<string>;
   private readonly typewriterService = inject(TypewriterService);
-  private readonly translocoService = inject(TranslocoService);
-  private readonly cdr = inject(ChangeDetectorRef);
-
   private readonly destroy$ = new Subject<void>();
 
+  constructor() {
+    console.debug('[TypewriterComponent] Inicializando...');
+    
+    // Simplesmente observe o título do serviço - ele já gerencia tudo
+    this.typedText$ = this.typewriterService.getTitleObservable().pipe(
+      takeUntil(this.destroy$)
+    );
+  }
+
   ngOnInit() {
-    this.translocoService
-      .selectTranslateObject('typewriterTitles')
-      .pipe(
-        switchMap((titles: string[]) => {
-          if (titles && titles.length) {
-            return this.typewriterService.getTitleObservable().pipe(
-              switchMap((title) => {
-                if (title) {
-                  return of(title); // Exibe o título diretamente
-                } else {
-                  return this.typewriterService.getTypewriterEffect(titles); // Efeito de typewriter
-                }
-              }),
-              map((text) => {
-                this.cdr.markForCheck(); // Força a detecção de mudanças
-                return text;
-              })
-            );
-          }
-          return of(''); // Caso não haja títulos disponíveis
-        }),
-        takeUntil(this.destroy$) // Limpeza automática quando o componente for destruído
-      )
-      .subscribe((text) => {
-        this.typedText$ = of(text);
-      });
+    console.debug('[TypewriterComponent] Componente iniciado');
+    
+    // Opcional: Log para debug
+    this.typedText$.subscribe(text => {
+      console.debug('[TypewriterComponent] Texto recebido:', text);
+    });
+  }
+
+  // Métodos opcionais para controle
+  pauseEffect() {
+    this.typewriterService.stopEffect();
+  }
+
+  resumeEffect() {
+    this.typewriterService.startEffect();
+  }
+
+  restartEffect() {
+    this.typewriterService.restartEffect();
   }
 
   ngOnDestroy() {
+    console.debug('[TypewriterComponent] Destruindo componente');
     this.destroy$.next();
     this.destroy$.complete();
   }
