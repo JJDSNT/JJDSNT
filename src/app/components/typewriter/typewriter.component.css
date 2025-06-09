@@ -1,0 +1,25 @@
+.typewriter-container {
+  display: flex;
+  align-items: center;
+  margin-top: 0.25rem; /* equivalente ao mt-1 */
+  font-size: 1.5rem;    /* equivalente ao text-2xl */
+  font-weight: bold;    /* equivalente ao font-bold */
+}
+
+.typewriter-text {
+  color: #0072ef; /* mesma cor usada no cursor */
+}
+
+#cursor {
+  color: #0072ef;
+  animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 100%;
+  }
+  50% {
+    opacity: 0%;
+  }
+}

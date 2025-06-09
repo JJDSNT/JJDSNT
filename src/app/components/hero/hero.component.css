@@ -1,0 +1,17 @@
+.hero-section {
+  width: 100vw;
+  margin-top:100px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  max-width: 1600px; /* limite para telas muito grandes */
+  display: block;
+  object-fit: cover;
+}

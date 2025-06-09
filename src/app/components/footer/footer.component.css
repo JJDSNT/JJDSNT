@@ -1,0 +1,55 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0; /* garante que o footer não ultrapasse o viewport */
+  width: 100%;
+  background-color: #f8f9fa;
+  z-index: 10;
+  padding: 1rem 1.5rem;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+  box-sizing: border-box;
+}
+
+.footer-content {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+
+p {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+  color: #333;
+  margin: 0;
+}
+
+.logo-icon {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.3s;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+}

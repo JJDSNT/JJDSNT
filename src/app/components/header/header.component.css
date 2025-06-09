@@ -1,0 +1,40 @@
+/* CSS para o header */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #111827; /* equivale ao bg-gray-900 do Tailwind */
+  padding: 1rem 1rem 1rem 0.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* equivale ao shadow-md */
+  flex: 0 0 auto;
+  z-index: 10;
+}
+
+.header-content {
+  color: white;
+   padding-left: 0;
+}
+
+.header-container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-title {
+  font-size: 1.875rem; /* equivale ao text-3xl */
+  font-weight: bold;
+  margin: 0;
+}
+
+.header-left {
+  /* container para título e typewriter */
+}
+
+.header-right {
+  /* container para o seletor de idioma */
+}
