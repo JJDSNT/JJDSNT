@@ -2,7 +2,6 @@ import {
   ChangeDetectionStrategy,
   Component,
   inject,
-  OnInit,
   OnDestroy
 } from '@angular/core';
 import { TypewriterService } from './typewriter.service';
@@ -18,18 +17,11 @@ import { AsyncPipe } from '@angular/common';
   styleUrls: ['./typewriter.component.css'],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class TypewriterComponent implements OnInit, OnDestroy {
+export class TypewriterComponent implements OnDestroy {
   private readonly typewriterService = inject(TypewriterService);
   private readonly destroy$ = new Subject<void>();
 
   typedText$ = this.typewriterService.typedText$.pipe(takeUntil(this.destroy$));
-
-  ngOnInit() {
-    console.debug('[TypewriterComponent] Componente iniciado');
-    this.typedText$.subscribe(text => {
-      console.debug('[TypewriterComponent] Texto recebido:', text);
-    });
-  }
 
   pauseEffect() {
     this.typewriterService.stopEffect();

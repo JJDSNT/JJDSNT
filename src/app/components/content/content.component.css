@@ -1,10 +1,14 @@
+.livro-wrapper-outer {
+  margin-bottom: 5rem; /* garante espaço visual antes do footer */
+}
+
 .livro-content {
   max-width: 1200px;
   margin: 0 auto;
   background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(10px);
   border-radius: 24px;
-  padding: 3rem 3rem 6rem 3rem;
+  padding: 3rem;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(255, 255, 255, 0.1);
   position: relative;
   overflow: hidden;
@@ -101,6 +105,7 @@
 
 .downloads {
   display: flex;
+  justify-content: center;
   gap: 1rem;
   flex-wrap: wrap;
 }
