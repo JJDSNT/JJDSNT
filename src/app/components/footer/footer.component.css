@@ -26,9 +26,6 @@ footer {
 @media (max-width: 768px) {
   .footer-content {
     padding-inline: 1.5rem;
-    flex-direction: column;
-    gap: 0.5rem;
-    text-align: center;
   }
 }
 
