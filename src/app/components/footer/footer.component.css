@@ -10,7 +10,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: "Segoe UI", sans-serif;
   box-sizing: border-box;
 }
 
@@ -23,6 +23,14 @@ footer {
   box-sizing: border-box;
 }
 
+@media (max-width: 768px) {
+  .footer-content {
+    padding-inline: 1.5rem;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+}
 
 p {
   display: flex;
