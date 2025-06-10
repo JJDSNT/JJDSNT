@@ -31,7 +31,6 @@ export class TypewriterService implements OnDestroy {
   private initializeTypewriter() {
     this.translationService.getTitlesObservable().pipe(
       filter(titles => titles.length > 0),
-      tap(titles => console.debug('[TypewriterService] Títulos recebidos:', titles))
     ).subscribe(titles => {
       this.startTypewriterEffect(titles);
     });
@@ -43,7 +42,6 @@ export class TypewriterService implements OnDestroy {
       this.stopTypewriterEffect();
     }
 
-    console.debug('[TypewriterService] Iniciando efeito de digitação com títulos:', titles);
     this.isRunning = true;
 
     this.typewriterSubscription = this.getTypewriterEffect(titles).subscribe({
@@ -88,7 +86,6 @@ export class TypewriterService implements OnDestroy {
     return concat(
       of(null).pipe(
         tap(() => {
-          console.debug('[TypewriterService] Emitindo título atual completo:', word);
           this.currentTitleSubject.next(word);
         }),
         ignoreElements()
@@ -103,7 +100,6 @@ export class TypewriterService implements OnDestroy {
   private getTypewriterEffect(titles: string[]) {
     return from(titles).pipe(
       concatMap(title => {
-        console.debug('[TypewriterService] Processando título:', title);
         return this.typeEffect(title);
       }),
       repeat()

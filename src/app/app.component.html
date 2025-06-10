@@ -1,5 +1,8 @@
-<app-header />
-<app-hero />
-<app-destaque />
-<app-content />
-<app-footer />
+<app-epub-reader *ngIf="readerVisible" class="fullscreen-reader" />
+<ng-container *ngIf="!readerVisible">
+  <app-header />
+  <app-hero />
+  <app-destaque />
+  <app-content />
+  <app-footer />
+</ng-container>

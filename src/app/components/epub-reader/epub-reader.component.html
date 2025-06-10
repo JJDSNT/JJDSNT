@@ -1,0 +1,14 @@
+<div class="epub-reader">
+  <header class="epub-header">
+    <button class="back-btn" (click)="fechar()">← Voltar</button>
+
+    <h1 class="book-title">Liderando a Transformação Digital</h1>
+
+    <div class="nav-buttons">
+      <button (click)="prevPage()">← Anterior</button>
+      <button (click)="nextPage()">Próxima →</button>
+    </div>
+  </header>
+
+  <div #viewer class="viewer"></div>
+</div>
