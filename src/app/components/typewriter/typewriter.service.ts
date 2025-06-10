@@ -8,17 +8,20 @@ import {
   concatMap,
   repeat,
   tap,
-  switchMap,
   filter,
 } from 'rxjs/operators';
 import { AppTranslationService } from '@/app/services/app-translation.service';
 
 @Injectable({ providedIn: 'root' })
 export class TypewriterService implements OnDestroy {
-  private readonly titleSubject = new BehaviorSubject<string>('');
+  private readonly typedTextSubject = new BehaviorSubject<string>('');
+  private readonly currentTitleSubject = new BehaviorSubject<string>('');
   private readonly translationService = inject(AppTranslationService);
   private typewriterSubscription?: Subscription;
   private isRunning = false;
+
+  typedText$ = this.typedTextSubject.asObservable();
+  currentTitle$ = this.currentTitleSubject.asObservable();
 
   constructor() {
     console.debug('[TypewriterService] Inicializando...');
@@ -26,9 +29,8 @@ export class TypewriterService implements OnDestroy {
   }
 
   private initializeTypewriter() {
-    // Aguarda os títulos serem carregados e inicia o efeito automaticamente
     this.translationService.getTitlesObservable().pipe(
-      filter(titles => titles && titles.length > 0),
+      filter(titles => titles.length > 0),
       tap(titles => console.debug('[TypewriterService] Títulos recebidos:', titles))
     ).subscribe(titles => {
       this.startTypewriterEffect(titles);
@@ -45,9 +47,8 @@ export class TypewriterService implements OnDestroy {
     this.isRunning = true;
 
     this.typewriterSubscription = this.getTypewriterEffect(titles).subscribe({
-      next: (title) => {
-        console.debug('[TypewriterService] Atualizando título:', title);
-        this.titleSubject.next(title);
+      next: (typedText) => {
+        this.typedTextSubject.next(typedText);
       },
       error: (error) => {
         console.error('[TypewriterService] Erro no efeito:', error);
@@ -64,31 +65,6 @@ export class TypewriterService implements OnDestroy {
     this.isRunning = false;
   }
 
-  setTitle(title: string) {
-    console.debug('[TypewriterService] Título definido manualmente:', title);
-    this.stopTypewriterEffect(); // Para o efeito automático
-    this.titleSubject.next(title);
-  }
-
-  getTitleObservable() {
-    return this.titleSubject.asObservable();
-  }
-
-  getCurrentTitle(): string {
-    return this.titleSubject.getValue();
-  }
-
-  getTitlesObservable() {
-    return this.translationService.getTitlesObservable();
-  }
-
-  getCurrentTitles(): string[] {
-    const titles = this.translationService.getCurrentTitles();
-    console.debug('[TypewriterService] Títulos atuais:', titles);
-    return titles;
-  }
-
-  // Gera o efeito de digitação
   private type({
     word,
     speed,
@@ -98,12 +74,6 @@ export class TypewriterService implements OnDestroy {
     speed: number;
     backwards?: boolean;
   }) {
-    console.debug(
-      '[TypewriterService] Iniciando digitação:',
-      word,
-      backwards ? '(backwards)' : '(forwards)'
-    );
-
     return interval(speed).pipe(
       map((x) =>
         backwards
@@ -114,20 +84,25 @@ export class TypewriterService implements OnDestroy {
     );
   }
 
-  typeEffect(word: string) {
-    console.debug('[TypewriterService] Criando efeito para palavra:', word);
+  private typeEffect(word: string) {
     return concat(
+      of(null).pipe(
+        tap(() => {
+          console.debug('[TypewriterService] Emitindo título atual completo:', word);
+          this.currentTitleSubject.next(word);
+        }),
+        ignoreElements()
+      ),
       this.type({ word, speed: 50 }),
-      of('').pipe(delay(1200), ignoreElements()),
+      of(null).pipe(delay(1200), ignoreElements()),
       this.type({ word, speed: 30, backwards: true }),
-      of('').pipe(delay(300), ignoreElements())
+      of(null).pipe(delay(300), ignoreElements())
     );
   }
 
-  getTypewriterEffect(titles: string[]) {
-    console.debug('[TypewriterService] Iniciando ciclo de efeito com títulos:', titles);
+  private getTypewriterEffect(titles: string[]) {
     return from(titles).pipe(
-      concatMap((title) => {
+      concatMap(title => {
         console.debug('[TypewriterService] Processando título:', title);
         return this.typeEffect(title);
       }),
@@ -135,36 +110,26 @@ export class TypewriterService implements OnDestroy {
     );
   }
 
-  // Métodos de controle público
-  startEffect() {
-    const titles = this.getCurrentTitles();
-    if (titles.length > 0) {
-      this.startTypewriterEffect(titles);
-    } else {
-      console.warn('[TypewriterService] Nenhum título disponível para iniciar o efeito');
-    }
-  }
+  // Métodos auxiliares e de controle
 
   stopEffect() {
     this.stopTypewriterEffect();
-    this.titleSubject.next('');
+    this.typedTextSubject.next('');
+    this.currentTitleSubject.next('');
   }
 
   restartEffect() {
     this.stopEffect();
-    setTimeout(() => this.startEffect(), 100);
-  }
-
-  // Força uma atualização dos títulos
-  refreshTitles() {
-    const titles = this.getCurrentTitles();
-    if (titles.length > 0) {
-      this.startTypewriterEffect(titles);
-    }
+    setTimeout(() => {
+      const titles = this.translationService.getCurrentTitles();
+      if (titles.length > 0) {
+        this.startTypewriterEffect(titles);
+      }
+    }, 100);
   }
 
   ngOnDestroy() {
     console.debug('[TypewriterService] Destruindo serviço...');
-    this.stopTypewriterEffect();
+    this.stopEffect();
   }
 }

@@ -2,8 +2,13 @@
   padding: 2rem 1.5rem;
   max-width: 800px;
   margin: 0 auto;
-  text-align: center;
+
   animation: fadeIn 0.8s ease;
+  min-height: 240px; /* Evita “salto” ao trocar textos */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: min-height 0.3s ease;
 }
 
 .destaque-container h2 {
@@ -35,6 +40,7 @@
 @media (max-width: 600px) {
   .destaque-container {
     padding: 1.5rem 1rem;
+    min-height: 200px; /* Ajusta para telas menores */
   }
 
   .destaque-container h2 {

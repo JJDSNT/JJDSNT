@@ -1,4 +1,4 @@
-/* Reset básico com melhorias para layout responsivo */
+/* Reset e base minimalista para layout consistente */
 *,
 *::before,
 *::after {
@@ -9,33 +9,17 @@
 
 html, body {
   width: 100%;
-  height: 100%;
-  overflow-x: hidden; /* evita scroll horizontal */
+  min-height: 100%;
+  overflow-x: hidden;
   font-size: 1rem;
   line-height: 1.5;
-  font-family: 'Segoe UI', system-ui, sans-serif;
-  background-color: #000; /* ou o fundo padrão da sua página */
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: #fff;
 }
 
-/* Imagens e mídias fluidas */
-img,
-video,
-iframe {
+/* Mídias responsivas */
+img, video, iframe {
+  display: block;
   max-width: 100%;
   height: auto;
-  display: block;
 }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            padding: 2rem;
-        }
