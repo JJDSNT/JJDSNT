@@ -6,15 +6,16 @@ header {
   width: 100%;
   background-color: #111827; /* equivale ao bg-gray-900 do Tailwind */
   padding: 1rem 1rem 1rem 0.5rem;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* equivale ao shadow-md */
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06); /* equivale ao shadow-md */
   flex: 0 0 auto;
   z-index: 10;
-  font-family: 'Inter', sans-serif; /* fonte padrão do Tailwind */
+  font-family: "Inter", sans-serif; /* fonte padrão do Tailwind */
 }
 
 .header-content {
   color: white;
-   padding-left: 0;
+  padding-left: 0;
 }
 
 .header-container {
@@ -29,10 +30,14 @@ header {
   font-size: 1.875rem; /* equivale ao text-3xl */
   font-weight: bold;
   margin: 0;
+  line-height: 0.5;
 }
 
 .header-left {
   /* container para título e typewriter */
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
 }
 
 .header-right {

@@ -1,7 +1,6 @@
 .typewriter-container {
   display: flex;
   align-items: center;
-  margin-top: 0.25rem; /* equivalente ao mt-1 */
   font-size: 1.5rem;    /* equivalente ao text-2xl */
   font-weight: bold;    /* equivalente ao font-bold */
 }
