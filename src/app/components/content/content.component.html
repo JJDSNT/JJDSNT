@@ -3,7 +3,12 @@
     <h2>Liderando a Transformação Digital</h2>
 
     <div class="livro-wrapper">
-      <img src="assets/cover.jpg" alt="Capa do livro" (click)="abrirLeitor()" style="cursor: pointer;" />
+      <img
+        src="assets/cover.jpg"
+        alt="Capa do livro"
+        (click)="abrirLeitor()"
+        style="cursor: pointer"
+      />
 
       <div class="livro-detalhes">
         <p class="descricao">
@@ -15,11 +20,14 @@
         <div class="downloads">
           <a
             href="assets/livro.pdf"
+            class="primary-download"
             onclick="alert('Download do PDF iniciado!')"
             >📄 Baixar PDF</a
           >
+
           <a
             href="assets/livro.epub"
+            class="primary-download"
             onclick="alert('Download do EPUB iniciado!')"
             >📚 Baixar EPUB</a
           >
