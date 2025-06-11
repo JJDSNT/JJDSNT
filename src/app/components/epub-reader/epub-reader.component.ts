@@ -43,6 +43,8 @@
 [ ] Leitura em voz alta (Web Speech API)
 [ ] Exibição de metadados do livro
 
+Adicionar suporte ao Google Analytics(para rastrear eventos de leitura também)
+
 */
 
 
