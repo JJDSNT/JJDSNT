@@ -1,43 +1,49 @@
 <div class="livro-wrapper-outer">
   <section class="livro-content">
-    <h2>Liderando a Transformação Digital</h2>
+    <h2>{{ 'livro.titulo' | transloco }}</h2>
 
     <div class="livro-wrapper">
-      <img
-        src="assets/cover.jpg"
-        alt="Capa do livro"
+      <button
+        class="livro-cover-button"
+        type="button"
         (click)="abrirLeitor()"
-        style="cursor: pointer"
-      />
+        [attr.aria-label]="'livro.altCapa' | transloco"
+      >
+        <img
+          [src]="coverSrc"
+          alt="{{ 'livro.altCapa' | transloco }}"
+          class="livro-cover-img"
+        />
+      </button>
 
       <div class="livro-detalhes">
         <p class="descricao">
-          Descubra como as organizações podem se reinventar com o uso
-          estratégico da tecnologia. Este guia aborda transformação digital com
-          foco humano, arquiteturas recombináveis e o papel do RH.
+          {{ 'livro.descricao' | transloco }}
         </p>
 
         <div class="downloads">
           <a
-            href="assets/livro.pdf"
+            [href]="pdfSrc"
             class="primary-download"
-            onclick="alert('Download do PDF iniciado!')"
-            >📄 Baixar PDF</a
+            (click)="alerta('pdf')"
           >
+            {{ 'livro.baixarPdf' | transloco }}
+          </a>
 
           <a
-            href="assets/livro.epub"
+            [href]="epubSrc"
             class="primary-download"
-            onclick="alert('Download do EPUB iniciado!')"
-            >📚 Baixar EPUB</a
+            (click)="alerta('epub')"
           >
+            {{ 'livro.baixarEpub' | transloco }}
+          </a>
         </div>
 
         <div class="audio-player">
-          🎧 Sinopse em áudio:
+          {{ 'livro.audioTitulo' | transloco }}
           <audio controls>
-            <source src="assets/audio.wav" type="audio/mpeg" />
-            Seu navegador não suporta o elemento de áudio.
+            <source [src]="audioSrc" type="audio/mpeg" />
+            {{ 'livro.audioFallback' | transloco }}
           </audio>
         </div>
       </div>

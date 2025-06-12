@@ -3,7 +3,7 @@
   "underConstructionTitle": "Page under construction",
   "underConstructionContent": "We are working to bring you more news soon. Stay tuned!",
   "headerTitle": "JDias",
-  "footerMessage":"Made with ❤️ and with ",
+  "footerMessage": "Made with ❤️ and with ",
   "typewriterTitles": [
     "Digital Transformation",
     "Web Development",
@@ -35,5 +35,14 @@
   "content8Title": "Process Mapping",
   "content8": "Process mapping identifies and analyzes business processes to improve them.",
   "content9Title": "Service Design",
-  "content9": "Service design focuses on creating efficient and pleasant user experiences for digital and physical services."
+  "content9": "Service design focuses on creating efficient and pleasant user experiences for digital and physical services.",
+  "livro.titulo": "Leading Digital Transformation",
+  "livro.descricao": "Discover how organizations can reinvent themselves through the strategic use of technology. This guide explores data-driven and human-centered digital transformation, highlighting composable architectures and the building of bionic organizations through platforms.",
+  "livro.baixarPdf": "📄 Download PDF",
+  "livro.baixarEpub": "📚 Download EPUB",
+  "livro.alertaPdf": "PDF download started!",
+  "livro.alertaEpub": "EPUB download started!",
+  "livro.audioTitulo": "🎧 Audio synopsis:",
+  "livro.audioFallback": "Your browser does not support the audio element.",
+  "livro.altCapa": "Book cover"
 }

@@ -35,5 +35,14 @@
   "content8Title": "Mapeamento de processos",
   "content8": "O mapeamento de processos identifica e analisa os processos de negócios para melhorá-los.",
   "content9Title": "Service Design",
-  "content9": "O design de serviços foca em criar experiências de usuário eficientes e agradáveis para serviços digitais e físicos."
+  "content9": "O design de serviços foca em criar experiências de usuário eficientes e agradáveis para serviços digitais e físicos.",
+    "livro.titulo": "Liderando a Transformação Digital",
+  "livro.descricao": "Descubra como as organizações podem se reinventar com o uso estratégico da tecnologia. Este guia explora uma transformação digital orientada por dados e centrada nas pessoas, destacando arquiteturas recombináveis e a construção de organizações biônicas baseadas em plataformas.",
+  "livro.baixarPdf": "📄 Baixar PDF",
+  "livro.baixarEpub": "📚 Baixar EPUB",
+  "livro.alertaPdf": "Download do PDF iniciado!",
+  "livro.alertaEpub": "Download do EPUB iniciado!",
+  "livro.audioTitulo": "🎧 Sinopse em áudio:",
+  "livro.audioFallback": "Seu navegador não suporta o elemento de áudio.",
+  "livro.altCapa": "Capa do livro"
 }
