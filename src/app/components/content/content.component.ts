@@ -1,4 +1,4 @@
-import { Component, OnDestroy } from '@angular/core';
+import { AfterViewInit, Component, ElementRef, OnDestroy, ViewChild } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TranslocoModule, TranslocoService } from '@jsverse/transloco';
 import { ReaderService } from '@/app/services/reader.service';
@@ -12,7 +12,9 @@ import { Subscription } from 'rxjs';
   templateUrl: './content.component.html',
   styleUrl: './content.component.css',
 })
-export class ContentComponent implements OnDestroy {
+export class ContentComponent implements AfterViewInit, OnDestroy {
+  @ViewChild('audioRef') audioElementRef!: ElementRef<HTMLAudioElement>;
+  
   private readonly sub = new Subscription();
 
   constructor(
@@ -25,6 +27,19 @@ export class ContentComponent implements OnDestroy {
         // dispara change detection se necessário
       })
     );
+  }
+  ngAfterViewInit(): void {
+    this.sub.add(
+      this.transloco.langChanges$.subscribe(() => {
+        this.updateAudioSource();
+      })
+    );
+  }
+
+    updateAudioSource(): void {
+    if (this.audioElementRef?.nativeElement) {
+      this.audioElementRef.nativeElement.load(); // força recarregamento
+    }
   }
 
   abrirLeitor() {

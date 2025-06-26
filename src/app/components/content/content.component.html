@@ -41,7 +41,7 @@
 
         <div class="audio-player">
           {{ 'livro.audioTitulo' | transloco }}
-          <audio controls>
+          <audio controls #audioRef>
             <source [src]="audioSrc" type="audio/mpeg" />
             {{ 'livro.audioFallback' | transloco }}
           </audio>
