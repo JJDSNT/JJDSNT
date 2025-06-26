@@ -60,7 +60,7 @@ export class AppTranslationService {
     cover: ['en'],
     pdf: [],
     epub: [],
-    audio: [],
+    audio: ['en'],
   };
 
   getAssetPath(type: AssetType): string {
@@ -72,11 +72,13 @@ export class AppTranslationService {
   }
 
   private getExtension(type: AssetType): string {
+    const lang = this.getCurrentLang();
+    
     switch (type) {
       case 'cover': return 'jpg';
       case 'pdf': return 'pdf';
       case 'epub': return 'epub';
-      case 'audio': return 'wav';
+      case 'audio': return lang.startsWith('en') ? 'mp3' : 'wav';
     }
   }
 
