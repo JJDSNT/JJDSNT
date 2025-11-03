@@ -37,6 +37,10 @@
       <img align="center" title="Vue" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg">
       <img align="center" title="Angular" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg">
       <img align="center" title="Nest" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/nestjs.jpg">
+    </td>
+  </tr>
+  <tr>
+    <td>
       <img align="center" title="Redux" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg">
       <img align="center" title="Zustand" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/zustand.png" />
     </td>
