@@ -92,12 +92,8 @@
 | Versionamento & Orquestração | CI/CD & Automação | Cloud Providers |
 | :---: | :---: | :---: |
 | <img title="Git" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original-wordmark.svg" /> <img title="Docker" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" /> <img title="Kubernetes" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain-wordmark.svg" /> <img title="Knative" height="25" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/knative-logo-rgb.png"> | <img title="Jenkins" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jenkins/jenkins-original.svg" /> <img title="Tekton" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/tekton.png"> <img title="ArgoCD" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/argocd/argocd-original-wordmark.svg" /> | <img title="AWS" height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" /> <img title="Azure" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/azure/azure-original-wordmark.svg" /> <img title="GCP" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/googlecloud/googlecloud-original-wordmark.svg" /> <img title="OCI" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" /> |
-| **Infraestrutura como Código (IaC):** | | |
-| <img title="Terraform" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/terraform/terraform-original-wordmark.svg" /> <img title="Pulumi" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/pulumi.png"> <img title="Crossplane" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/crossplane.png"> <img title="Ansible" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ansible/ansible-original-wordmark.svg" /> | | |
+| **Infraestrutura como Código (IaC):** | API Gateway | |
+| <img title="Terraform" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/terraform/terraform-original-wordmark.svg" /> <img title="Pulumi" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/pulumi.png"> <img title="Crossplane" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/crossplane.png"> <img title="Ansible" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ansible/ansible-original-wordmark.svg" /> | Gravitee  | |
 
----
 
-## 🔗 API Gateway
-
-| Gravitee |
 
