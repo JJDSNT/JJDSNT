@@ -76,6 +76,16 @@
 
 ---
 
+## 📊 Dados e MLOps
+
+| Orquestração & DataOps | ML Development & Monitoring | Big Data & Analytics |
+| :---: | :---: | :---: |
+| <img align="center" title="Airflow" height="40" src="https://avatars.githubusercontent.com/u/33643075?s=200&v=4"> <img align="center" title="Prefect" height="50" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/prefect.jpeg"> <img align="center" title="Dagster" height="50" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/dagster.png"> <img align="center" title="Dbt" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/dbt.png"> <img align="center" title="Hop" height="50" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/hop.png"> | <img align="center" title="DVC" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/dvc.png"> <img align="center" title="CML" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/cml.jpg"> <img align="center" title="MLFlow" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/mlflow.png"> <img align="center" title="Pycaret" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/pycaret.png"> | <img align="center" title="Hadoop" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/hadoop2.png"> <img align="center" title="Spark" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/spark.png"> <img align="center" title="Kylin" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/kylin.png"> |
+| | <img align="center" title="BentoML" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/bentoml.png"> <img align="center" title="Evidently" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/evidently.png"> | |
+
+
+---
+
 ## 🛠️ Infraestrutura e DevOps
 
 | Versionamento & Orquestração | CI/CD & Automação | Cloud Providers |
@@ -90,11 +100,3 @@
 
 | Gravitee |
 
----
-
-## 📊 Dados e MLOps
-
-| Orquestração & DataOps | ML Development & Monitoring | Big Data & Analytics |
-| :---: | :---: | :---: |
-| <img align="center" title="Airflow" height="40" src="https://avatars.githubusercontent.com/u/33643075?s=200&v=4"> <img align="center" title="Prefect" height="50" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/prefect.jpeg"> <img align="center" title="Dagster" height="50" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/dagster.png"> <img align="center" title="Dbt" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/dbt.png"> <img align="center" title="Hop" height="50" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/hop.png"> | <img align="center" title="DVC" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/dvc.png"> <img align="center" title="CML" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/cml.jpg"> <img align="center" title="MLFlow" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/mlflow.png"> <img align="center" title="Pycaret" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/pycaret.png"> | <img align="center" title="Hadoop" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/hadoop2.png"> <img align="center" title="Spark" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/spark.png"> <img align="center" title="Kylin" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/kylin.png"> |
-| | <img align="center" title="BentoML" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/bentoml.png"> <img align="center" title="Evidently" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/evidently.png"> | |
