@@ -51,6 +51,7 @@
   <tr><td>
     <img align="center" title="Spring" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original-wordmark.svg">
     <img align="center" title="Quarkus" height="40" src="https://raw.githubusercontent.com/github/explore/4a0bdb9141afd8d9be5d6b8d6b22eb40be88f665/topics/quarkus/quarkus.png">
+    <img align="center" title="Apache Camel" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/camel.png" /> 
   </td></tr>
   <tr><td>
     <img align="center" title="Python" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original-wordmark.svg">
@@ -85,11 +86,9 @@
 
 ---
 
-## 🔗 Middleware / ESB
+## 🔗 API Gateway
 
-| Integração de Sistemas |
-| :---: |
-| <img align="left" title="WSO2" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/wso2.png"> <img align="center" title="Apache Camel" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/camel.png" /> <img align="center" title="NiFi" height="40" src="https://raw.githubusercontent.com/JJDSNT/JJDSNT/main/icons/nifi.jpeg"> |
+| Gravitee |
 
 ---
 
