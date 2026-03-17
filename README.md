@@ -11,13 +11,14 @@
 <br />
 
 ---
-
-## 💻 Linguagens de Programação e Frameworks
-
 <div align="right">
   <img align="center" title="HTML 5" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg">
   <img align="center" title="CSS 3" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg">
 </div>
+
+## 💻 Linguagens de Programação e Frameworks
+
+
 
 <table>
   <tr><td align="center"><b>Linguagens de programação</b></td></tr>
