@@ -1,8 +1,10 @@
 .typewriter-container {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   font-size: 1.5rem;    /* equivalente ao text-2xl */
   font-weight: bold;    /* equivalente ao font-bold */
+  line-height: 1.15;
+  min-block-size: 1lh;
 }
 
 .typewriter-text {
@@ -12,6 +14,13 @@
 #cursor {
   color: #0072ef;
   animation: blink 1s linear infinite;
+}
+
+@media (max-width: 600px) {
+  .typewriter-container {
+    font-size: 1.15rem;
+    min-block-size: 3lh;
+  }
 }
 
 @keyframes blink {

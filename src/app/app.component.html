@@ -1,8 +1,10 @@
 <app-epub-reader *ngIf="readerVisible" class="fullscreen-reader" />
 <ng-container *ngIf="!readerVisible">
   <app-header />
-  <app-destaque />
-  <app-hero />
-  <app-content />
+  <main class="page-content">
+    <app-hero />
+    <app-destaque />
+    <app-content />
+  </main>
   <app-footer />
 </ng-container>

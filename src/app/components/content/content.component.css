@@ -1,9 +1,15 @@
+:host {
+  display: block;
+}
+
 .livro-wrapper-outer {
+  padding: clamp(1rem, 3vw, 2.5rem);
   margin-bottom: 5rem; /* garante espaço visual antes do footer */
 }
 
 .livro-content {
-  max-width: 1200px;
+  width: 100%;
+  max-width: 1280px;
   margin: 0 auto;
   background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(10px);
@@ -191,7 +197,7 @@
 
 /* Responsividade */
 @media (max-width: 768px) {
-  body {
+  .livro-wrapper-outer {
     padding: 1rem;
   }
 
