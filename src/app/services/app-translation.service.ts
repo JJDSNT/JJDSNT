@@ -31,8 +31,8 @@ export class AppTranslationService {
   }
 
   getTranslationValue(key: string): string | undefined {
-    const translation = this.transloco.translateObject('');
-    return translation?.[key];
+    const translation = this.transloco.translate(key);
+    return typeof translation === 'string' ? translation : undefined;
   }
 
   waitForInitialLoad(): Observable<string[]> {
