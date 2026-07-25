@@ -3,7 +3,7 @@
     <h2>{{ 'livro.titulo' | transloco }}</h2>
 
     <div class="livro-wrapper">
-      <button class="livro-cover-button" type="button" (click)="abrirLeitor()"
+      <button class="livro-cover-button" type="button" (click)="abrirLivro()"
         [attr.aria-label]="'livro.altCapa' | transloco">
         <img [src]="coverSrc" alt="{{ 'livro.altCapa' | transloco }}" class="livro-cover-img" />
       </button>

@@ -1,7 +1,6 @@
 import { AfterViewInit, Component, ElementRef, OnDestroy, ViewChild } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TranslocoModule, TranslocoService } from '@jsverse/transloco';
-import { ReaderService } from '@/app/services/reader.service';
 import { AppTranslationService } from '@/app/services/app-translation.service';
 import { Subscription } from 'rxjs';
 
@@ -14,11 +13,11 @@ import { Subscription } from 'rxjs';
 })
 export class ContentComponent implements AfterViewInit, OnDestroy {
   @ViewChild('audioRef') audioElementRef!: ElementRef<HTMLAudioElement>;
-  
+
+  private readonly amazonBrazilUrl = 'https://a.co/d/004Eaw6s';
   private readonly sub = new Subscription();
 
   constructor(
-    public readerService: ReaderService,
     private readonly translationService: AppTranslationService,
     private readonly transloco: TranslocoService
   ) {
@@ -42,8 +41,16 @@ export class ContentComponent implements AfterViewInit, OnDestroy {
     }
   }
 
-  abrirLeitor() {
-    this.readerService.show();
+  abrirLivro(): void {
+    if (this.translationService.getCurrentLang().startsWith('pt')) {
+      window.open(this.amazonBrazilUrl, '_blank', 'noopener,noreferrer');
+      return;
+    }
+
+    const message = this.translationService.getTranslationValue('livro.lancamentoIngles');
+    if (message) {
+      alert(message);
+    }
   }
 
   alerta(formato: 'pdf' | 'epub') {

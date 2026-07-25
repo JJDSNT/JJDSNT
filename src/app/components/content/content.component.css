@@ -210,15 +210,21 @@
   }
 
   .livro-wrapper {
+    flex-direction: column;
     gap: 2rem;
-    justify-content: center;
+    align-items: center;
   }
 
   .livro-wrapper img {
     width: 240px;
   }
 
+  .livro-cover-button {
+    margin-inline: auto;
+  }
+
   .livro-detalhes {
+    width: 100%;
     min-width: unset;
   }
 

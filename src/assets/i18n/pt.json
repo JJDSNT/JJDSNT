@@ -44,5 +44,6 @@
   "livro.alertaEpub": "Download do EPUB iniciado!",
   "livro.audioTitulo": "🎧 Sinopse em áudio:",
   "livro.audioFallback": "Seu navegador não suporta o elemento de áudio.",
-  "livro.altCapa": "Capa do livro"
+  "livro.altCapa": "Capa do livro",
+  "livro.lancamentoIngles": "A edição em inglês será lançada em dezembro de 2026."
 }

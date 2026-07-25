@@ -44,5 +44,6 @@
   "livro.alertaEpub": "EPUB download started!",
   "livro.audioTitulo": "🎧 Audio synopsis:",
   "livro.audioFallback": "Your browser does not support the audio element.",
-  "livro.altCapa": "Book cover"
+  "livro.altCapa": "Book cover",
+  "livro.lancamentoIngles": "The English edition will be released in December 2026."
 }
