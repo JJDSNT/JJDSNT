@@ -16,7 +16,7 @@ export class HeroComponent implements OnDestroy {
     this.translocoService.langChanges$
       .pipe(startWith(this.translocoService.getActiveLang()), takeUntil(this.destroy$))
       .subscribe(lang => {
-        this.imageUrl = lang === 'pt' ? '/assets/ai_image_pt.png' : '/assets/ai_image.jpg';
+        this.imageUrl = lang === 'pt' ? '/assets/hero_pt_br.png' : '/assets/hero_en.png';
       });
   }
 

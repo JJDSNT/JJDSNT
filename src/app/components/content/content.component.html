@@ -3,17 +3,9 @@
     <h2>{{ 'livro.titulo' | transloco }}</h2>
 
     <div class="livro-wrapper">
-      <button
-        class="livro-cover-button"
-        type="button"
-        (click)="abrirLeitor()"
-        [attr.aria-label]="'livro.altCapa' | transloco"
-      >
-        <img
-          [src]="coverSrc"
-          alt="{{ 'livro.altCapa' | transloco }}"
-          class="livro-cover-img"
-        />
+      <button class="livro-cover-button" type="button" (click)="abrirLeitor()"
+        [attr.aria-label]="'livro.altCapa' | transloco">
+        <img [src]="coverSrc" alt="{{ 'livro.altCapa' | transloco }}" class="livro-cover-img" />
       </button>
 
       <div class="livro-detalhes">
@@ -21,6 +13,7 @@
           {{ 'livro.descricao' | transloco }}
         </p>
 
+        <!--
         <div class="downloads">
           <a
             [href]="pdfSrc"
@@ -38,6 +31,7 @@
             {{ 'livro.baixarEpub' | transloco }}
           </a>
         </div>
+        -->
 
         <div class="audio-player">
           {{ 'livro.audioTitulo' | transloco }}
