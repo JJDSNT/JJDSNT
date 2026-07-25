@@ -4,7 +4,6 @@
 
 .livro-wrapper-outer {
   padding: clamp(1rem, 3vw, 2.5rem);
-  margin-bottom: 5rem; /* garante espaço visual antes do footer */
 }
 
 .livro-content {

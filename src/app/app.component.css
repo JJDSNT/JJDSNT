@@ -1,3 +1,10 @@
 .page-content {
   min-width: 0;
+  padding-bottom: 3.5rem;
+}
+
+@media (max-width: 480px) {
+  .page-content {
+    padding-bottom: 4rem;
+  }
 }
